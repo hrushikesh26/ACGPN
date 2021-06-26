@@ -1,9 +1,9 @@
 <!-- # Inference using colab -->
-<!-- [colab-badge]: <https:// colab.research.google.com/assets/colab-badge.svg> -->
+<!-- [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg> -->
 
 This repo is taken from https://github.com/levindabhi/ACGPN.git and being used for academic purpose. Please refer original repo https://github.com/levindabhi/ACGPN.git.
-
-[![Open In Colab][colab-badge]](https://colab.research.google.com/github/levindabhi/ACGPN/blob/master/ACGPN_and_SieveNet.ipynb)
+<!-- 
+[![Open In Colab][colab-badge]](https://colab.research.google.com/github/levindabhi/ACGPN/blob/master/ACGPN_and_SieveNet.ipynb) -->
 
 # Original README
 
