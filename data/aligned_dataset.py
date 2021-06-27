@@ -166,7 +166,7 @@ class AlignedDataset(BaseDataset):
 
         # Edge
         # E_path = self.E_paths[test]
-        E_path = osp.join(self.dir_E, c_name)
+        E_path = osp.join(self.dir_E, c_name.replace(".jpg",".png"))
         # print(E_path)
         E = Image.open(E_path).convert('L')
         E_tensor = transform_A(E)
