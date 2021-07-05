@@ -16,7 +16,7 @@ class BaseOptions():
         self.parser.add_argument('--gpu_ids', type=str, default='0',
                                  help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
         self.parser.add_argument('--checkpoints_dir', type=str,
-                                 default='./checkpoints', help='models are saved here')
+                                 default='./ACGPN/checkpoints', help='models are saved here')
         self.parser.add_argument(
             '--model', type=str, default='pix2pixHD', help='which model to use')
         self.parser.add_argument('--norm', type=str, default='instance',
@@ -44,7 +44,7 @@ class BaseOptions():
 
         # for setting inputs
         self.parser.add_argument(
-            '--dataroot', type=str, default='Data_preprocessing/')
+            '--dataroot', type=str, default='ACGPN/Data_preprocessing/')
         self.parser.add_argument('--datapairs', type=str, default='test_pairs.txt',
                                  help='train_pairs.txt/test_pairs.txt/test_pairs_same.txt etc.')
 
