@@ -31,6 +31,7 @@ class general_pose_model(object):
                             [9, 10], [1, 11], [11, 12], 
                             [12, 13], [0, 14], [0, 15], 
                             [14, 16], [15, 17]]
+        modelpath = os.path.join(os.path.dirname(__file__), modelpath)
         prototxt   = os.path.join(
             modelpath, 
             'pose_deploy_linevec.prototxt')

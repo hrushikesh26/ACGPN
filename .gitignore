@@ -3,3 +3,7 @@ results/
 runs/
 sample/
 checkpoints/
+__pycache__/
+Data_preprocessing/test_img/
+Data_preprocessing/test_color/
+pose/pose_iter_440000.caffemodel
