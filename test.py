@@ -75,7 +75,7 @@ def main():
     os.makedirs('sample', exist_ok=True)
     opt = TestOptions().parse()
 
-    data_loader = CreateDat aLoader(opt)
+    data_loader = CreateDataLoader(opt)
     dataset = data_loader.load_data()
     dataset_size = len(data_loader)
     print('# Inference images = %d' % dataset_size)
