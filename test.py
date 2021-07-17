@@ -115,7 +115,7 @@ def main():
         for j in range(opt.batchSize):
             print("Saving", data['name'][j])
             util.save_tensor_as_image(fake_image[j],
-                                      os.path.join(fake_image_dir, 'userImage.jpg'))
+                                      os.path.join(fake_image_dir, data['name'][j]))
             util.save_tensor_as_image(warped_cloth[j],
                                       os.path.join(warped_cloth_dir, data['name'][j]))
             util.save_tensor_as_image(refined_cloth[j],
