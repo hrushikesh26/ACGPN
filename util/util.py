@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import torch
 
-print('?')
+# print('?')
 
 # Converts a Tensor into a Numpy array
 # |imtype|: the desired type of the converted numpy array
